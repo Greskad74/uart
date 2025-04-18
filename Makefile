@@ -7,6 +7,8 @@ USE_ST_CMSIS = true
 # ---- Archivos fuente ----
 SRC += src/main.c
 SRC += src/librerias/usart.c
+SRC += src/librerias/gpio.c
+
 
 # ---- Directorios de headers ----
 INC_DIRS += src/librerias
